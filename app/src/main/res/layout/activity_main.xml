@@ -9,24 +9,35 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="202dp"
-        android:layout_height="125dp"
-        android:text="Login!" />
-
-
-    git<EditText
-        android:id="@+id/usernameinput"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name" />
+        android:text="Log In!"
+        android:textColor="@color/teal_700"
+        android:textStyle="italic"
+        android:textSize="50sp"/>
 
     <EditText
         android:id="@+id/usernameInput"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name" />
+        android:hint="Please enter username"
+        android:autofillHints="please enter password"/>
+
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Please enter password"/>
+
+    <Button
+        android:id="@+id/SubmitBotton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+
 </LinearLayout>
